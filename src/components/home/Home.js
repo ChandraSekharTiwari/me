@@ -44,24 +44,34 @@ export default class Home extends React.Component {
           <h1 className="text-2xl font-bold text-gray-800">
             CHANDRASEKHAR TIWARI
           </h1>
-
-          {/* Title */}
-          <p className="text-lg text-gray-600">Senior Software Engineer</p>
-
           {/* Contact Info */}
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm text-gray-700 mt-3">
-            <span>📞 +91 9591658586</span>
-            <span>✉️ chandrasekhartiwari@gmail.com</span>
+            <span>📞 +91 9591658586 | </span>
+            <span>✉️ chandrasekhartiwari@gmail.com | </span>
             <a
               href="https://www.linkedin.com/in/chandra-sekhar-tiwari"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              🔗 LinkedIn
+              🔗 LinkedIn | 
             </a>
-            <span>📍 Bangalore, India</span>
+            <span> 📍 Bangalore, India</span>
           </div>
+          {/* Header / Summary */}
+          <section>
+            <h1 className="text-2xl font-bold text-gray-800">
+              Senior Frontend Engineer
+            </h1>
+            <p className="mt-2 text-gray-600 leading-relaxed">
+              Senior Frontend Engineer with over 9 years of experience building
+              performant, scalable web applications using React.js, Angular, and
+              Vue.js. Proven track record in architecting microfrontend
+              solutions, mentoring junior developers, and delivering
+              enterprise-grade user interfaces across e-commerce and SaaS
+              platforms.
+            </p>
+          </section>
         </div>
       </div>
     );

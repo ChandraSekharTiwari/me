@@ -11,21 +11,6 @@ export default class MyWork extends React.Component {
         style={{ padding: "30px" }}
       >
         <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-2xl space-y-8">
-          {/* Header / Summary */}
-          <section>
-            <h1 className="text-2xl font-bold text-gray-800">
-              Senior Frontend Engineer
-            </h1>
-            <p className="mt-2 text-gray-600 leading-relaxed">
-              Senior Frontend Engineer with over 9 years of experience building
-              performant, scalable web applications using React.js, Angular, and
-              Vue.js. Proven track record in architecting microfrontend
-              solutions, mentoring junior developers, and delivering
-              enterprise-grade user interfaces across e-commerce and SaaS
-              platforms.
-            </p>
-          </section>
-
           {/* Skills */}
           <section>
             <h2 className="text-xl font-semibold text-gray-800 border-b pb-1">
